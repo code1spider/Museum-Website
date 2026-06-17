@@ -1,0 +1,11 @@
+.uptext {
+    color: #5E984D;
+    margin: 70px;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+}
+
+.lefttext {
+    max-width: 40px;
+}
