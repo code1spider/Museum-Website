@@ -6,9 +6,57 @@
     background-color: black;
 }
 
-.lefttext {
-    max-width: 120px;
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 0px;
+}
+
+    
+.div1 {
+    grid-row: span 3 / span 3;
+    grid-column-start: 5;
+    grid-row-start: 3;
+}
+
+.div2 {
+    grid-column: span 3 / span 3;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    color: #5E984D;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+}
+
+.div3 {
+    grid-row: span 3 / span 3;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    max-width: 220px;
     background-color: black;
     color: #5E984D;
-    font-size: larger;
+    font-size: 8px;
 }
+
+.size {
+    text-align: center;
+}
+
+.div4 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.div5 {
+    grid-column: span 3 / span 3;
+    grid-column-start: 2;
+    grid-row-start: 5;
+}
+
+        
