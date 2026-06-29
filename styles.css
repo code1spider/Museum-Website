@@ -7,9 +7,10 @@
 }
 
 .map_contain img {
-    width: 100%;
+    width: 326px;
     height: 100%;
     object-fit: cover;
+    max-height: 461.33px;
 }
 
 
