@@ -25,7 +25,7 @@
 .div1 {
     grid-row: span 3 / span 3;
     grid-column-start: 5;
-    grid-row-start: 2;
+    grid-row-start: 3;
     max-height: 461.33px;
 }
 
@@ -37,12 +37,13 @@
     border-style: solid;
     border-color: black;
     background-color: black;
+    font-size: 12px;
 }
 
 .div3 {
     grid-row: span 3 / span 3;
     grid-column-start: 1;
-    grid-row-start: 2;
+    grid-row-start: 3;
     max-height: 461.33px;
     background-color: black;
     color: #5E984D;
@@ -57,14 +58,23 @@
     grid-column: span 3 / span 3;
     grid-row: span 3 / span 3;
     grid-column-start: 2;
-    grid-row-start: 2;
+    grid-row-start: 3;
     max-height: 461.33px;
 }
+
 
 .div5 {
     grid-column: span 3 / span 3;
     grid-column-start: 2;
-    grid-row-start: 5;
+    grid-row-start: 2;
+    background-color: black;
+    color: #5E984D;
 }
 
+.div5 div {
+    width:20%;  
+    float:left;
+    text-align: center;
+
+}
         
