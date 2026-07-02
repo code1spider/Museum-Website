@@ -86,3 +86,22 @@
     clip-path: inset(10px);
 }
         
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul li a {
+    display: block;
+    color: white;
+    padding: 1px 80px;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    color: #5E984D;
+  }
